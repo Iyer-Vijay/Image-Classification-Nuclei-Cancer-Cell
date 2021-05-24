@@ -1,0 +1,16 @@
+Initial Code :
+
+Both the basic NN and Deep Learning had code for binary accuracy every where. 
+
+Updated Code:
+
+No change in the NN code, but new train_generator, test_generator, validation_generator is created with categorical as accuracy parameter and binary_
+accuracy was changed to categorical accuracy wherever needed. 
+
+This is what was there in lab 10 code as well. In lab's initial code block, he asked to uncomment few lines if we were performing binary image 
+classification but rest of the codes were same as muliclass classification problem. So I did as per the lab code and used categorical everywhere for 
+CNN.
+
+Optimized CNN is still overfitting, you need to do more of optimization, which is mentioned at the optimization part in lab's code.
+
+Hope things are clear!!!
